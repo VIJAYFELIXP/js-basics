@@ -1,0 +1,108 @@
+console.log('')
+
+let usa={
+    state1:{
+        nameOfState:"Georgia",
+        stateCapitol:'atlanta',
+        population:1234556,
+        location:'southeast',
+        postalAbbr:'ga',
+        famousPlace:'lakelanier',
+        sports:'baseball',
+        ranking:3
+    },
+    state2 :{
+    nameOfState:"florida",
+    stateCapitol:'tallahassee',
+    population:01234556,
+    location:'south',
+    postalAbbr:'fl',
+    famousPlace:'beach',
+    sports:'basketball',
+    ranking:35},
+
+    state3:{
+    nameOfState:"texas",
+    stateCapitol:'austin',
+    population:12345567,
+    location:'south',
+    postalAbbr:'tx',
+    famousPlace:'jeremiah hamolton house',
+    sports:'rodeo',
+    ranking:6},
+
+    state4:
+    {nameOfState:"arizona",
+    stateCapitol:'phoenix',
+    population:'1233556',
+    location:'southwest',
+    postalAbbr:'az',
+    famousPlace:'grandcanyon',
+    sports:'rafting',
+    ranking:'9',
+},
+
+    state5:{
+        nameOfState:"california",
+        stateCapitol:'sacramento',
+        population:'12234556',
+        location:'west',
+        postalAbbr:'ca',
+        famousPlace:'napa valley',
+        sports:'surfing',
+        ranking:'15',
+    },
+state6:{
+        nameOfState:"north carolina",
+        stateCapitol:'raleigh',
+        population:'12345567',
+        location:'north',
+        postalAbbr:'nc',
+        famousPlace:'biltmore',
+        sports:'ootball',
+        ranking:'7',
+},
+state7:{
+    nameOfState:"illinois",
+    stateCapitol:'springfield',
+        population:'123344556',
+        location:'northeast',
+        postalAbbr:'il',
+        famousPlace:'lake michigan',
+        sports:'ruby',
+        ranking:'9'
+},
+state8:{
+    nameOfState:"virginia",
+    stateCapitol:'richmond',
+        population:'1234555666',
+        location:'east',
+        postalAbbr:'va',
+        famousPlace:'virginia beach',
+        sports:'soccer',
+        ranking:'34'
+},
+state9:{
+    nameOfState:"Massachusetts",
+    stateCapitol:'boston',
+        population:'10234555666',
+        location:'Northeast',
+        postalAbbr:'ma',
+        famousPlace:'boston city center',
+        sports:'skiing',
+        ranking:'29'
+},
+state10:{
+    nameOfState:"Washington",
+    stateCapitol:'olympia',
+        population:'123455560606',
+        location:'Northwest',
+        postalAbbr:'wa',
+        famousPlace:'seattle',
+        sports:'hockey',
+        ranking:'9'
+},
+}
+
+console.log (JSON.stringify(usa))
+
